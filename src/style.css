@@ -1,0 +1,18 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --cor-um: #171717;
+    --cor-dois: #9b9b7a;
+    --cor-tres: #d9ae94;
+    --cor-quatro: #f1dca7;
+    --cor-cinco: #ffcb69;
+    --cor-seis: #d08c60;
+    --cor-sete: #f0efeb;
+    --cor-fonte: #403d39;
+    --cor-fonte-titulo: #252422;
+}

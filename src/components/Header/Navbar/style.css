@@ -1,0 +1,18 @@
+#navbar {
+    font-size: 12px;
+    
+    width: 100vw;
+    max-width: 1200px;
+    padding: 10px 25px;
+    position: fixed;
+
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navbar h2 {
+    color: var(--cor-sete);
+}

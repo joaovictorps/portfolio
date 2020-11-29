@@ -1,0 +1,15 @@
+#icones img {
+    padding: 0.35rem;
+
+    width: 6rem;
+    filter: grayscale(100%);
+    transition: 0.26s ease-in;
+}
+
+#icones img:hover {
+    filter:grayscale(0);
+}
+
+#icones .redondos {
+    border-radius: 1rem;
+}

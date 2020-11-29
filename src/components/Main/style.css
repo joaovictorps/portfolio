@@ -1,0 +1,88 @@
+#main {
+    padding: 15px 15px;
+}
+
+#main section {
+    padding: 60px 0;
+    text-align: center;
+    align-items: center;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#main h2 {
+    margin-bottom: 25px;
+}
+
+#sobreMim img {
+    width: 180px;
+    border: 3px solid var(--cor-dois);
+    border-radius: 50%;
+}
+
+#sobreMim div {
+    padding-top: 20px;
+}
+
+#habilidades p {
+    margin-bottom: 27px;
+}
+
+#icones {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    justify-content: center;
+}
+
+#ondeAprendi .texto {
+    line-height: 30px;
+}
+
+#comQuemAprendi img {
+    width: 190px;
+    border-radius: 50%;
+}
+
+#comQuemAprendi div + div {
+    margin: 20px 0; 
+}
+
+#comQuemAprendi .botoes-nome {
+    min-width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 625px) {
+    #main {
+        padding: 20px 40px;
+    }
+
+    #main #oqueProcuro {
+        align-items: flex-start;
+    }
+
+    #main section, #habilidades {
+        align-items: flex-start;
+        text-align: start;
+    }
+
+    #main #sobreMim, #main #comQuemAprendi {
+        flex-direction: row;
+    }
+
+    #sobreMim img, #main #comQuemAprendi div{
+        margin-right: 30px;
+    }
+    
+}
+
+@media (min-width: 980px) {
+    #main {
+        padding: 30px 70px;
+    }
+}
