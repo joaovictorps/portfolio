@@ -2,6 +2,7 @@ import React from 'react';
 import OqueProcuro from './OqueProcuro';
 import SobreMim from './SobreMim';
 import Habilidades from './Habilidades';
+import Portfolio from './Portfolio';
 import OndeAprendi from './OndeAprendi';
 import ComQuemAprendi from './ComQuemAprendi';
 import Contato from './Contato';
@@ -30,7 +31,7 @@ export default function Main() {
     
     return (
         <main id='main'>
-            <OqueProcuro titulo='Oque eu estou procurando?' texto='No momento, procuro primeira oportunidade no mercado de trabalho como desenvolvedor Front End.'/>
+            <OqueProcuro titulo='Oque eu estou procurando?' texto='No momento, procuro minha primeira oportunidade no mercado de trabalho como desenvolvedor Front End.'/>
 
             <SobreMim 
                 titulo='Sobre mim' 
@@ -38,6 +39,8 @@ export default function Main() {
                 imagem={fotoPerfil} />
 
             <Habilidades titulo='Um pouco das minhas habilidades' habilidades={habilidades}/>
+
+            <Portfolio titulo='Portfolio' texto='Alguns dos meu projetos' />
 
             <OndeAprendi 
                 titulo='Minha jornada na programação' 

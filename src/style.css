@@ -6,13 +6,22 @@
 }
 
 :root {
-    --cor-um: #171717;
-    --cor-dois: #9b9b7a;
-    --cor-tres: #d9ae94;
-    --cor-quatro: #f1dca7;
-    --cor-cinco: #ffcb69;
-    --cor-seis: #d08c60;
+    --cor-um: #252422;
+    --cor-dois: #1b4332;
+    --cor-tres: #40916c;
+    --cor-quatro: #52b788;
+    --cor-cinco: #74c69d;
+    --cor-seis: #b7e4c7;
     --cor-sete: #f0efeb;
-    --cor-fonte: #403d39;
-    --cor-fonte-titulo: #252422;
+    --cor-oito: #06d6a0;
+    --cor-fonte: #6c757d;
+    --cor-fonte-titulo: #495057;
+}
+
+p {
+    color: var(--cor-fonte);
+}
+
+h2 {
+    color: var(--cor-fonte-titulo);
 }

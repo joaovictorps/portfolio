@@ -27,6 +27,15 @@
     font-size: 12px;
 }
 
+#footer nav a {
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+#footer nav a:hover{
+    color: var(--cor-fonte-titulo);
+}
+
 #footer .icon {
     width: 30px;
     height: 20px;
@@ -35,5 +44,11 @@
 
 #footer .icon:hover {
     border-radius: 100%;
-    background-color: var(--cor-dois);
+    background-color: var(--cor-fonte-titulo);
+}
+
+@media (min-width: 625px) {
+    #footer {
+        flex-flow: row wrap;
+    }
 }
