@@ -19,7 +19,7 @@ export default function Navbar() {
     return (
         <nav id='navbar'>
             <AiOutlineMenu size={32} onClick={menu} className='icon-menu'/>
-            <ul id='menu'>
+            <ul id='menu' className='none'>
                 <li><a href='#sobreMim'>Sobre Mim</a></li>
                 <li><a href='#ondeAprendi'>Jornada</a></li>
                 <li><a href='#portfolio'>Portfolio</a></li>
