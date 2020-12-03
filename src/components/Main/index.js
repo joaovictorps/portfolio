@@ -35,7 +35,7 @@ export default function Main() {
 
             <SobreMim 
                 titulo='Sobre mim' 
-                texto='Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse' 
+                texto='Meu nome é João Victor, tenho 20 anos e resolvi me tornar um desenvolvedor em 2020. Sempre gostei de tecnologia, e quando fui apresentado ao desenvolvimento, me identifiquei demais com a área. Gosto muito das partes lógicas das aplicações e pretendo me tornar desenvolvedor Full Stack. Sou calmo, paciente, proativo, trabalho bem em equipe e tenho muita vontade de aprender.' 
                 imagem={fotoPerfil} />
 
             <Habilidades titulo='Um pouco das minhas habilidades' habilidades={habilidades}/>

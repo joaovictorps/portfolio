@@ -4,25 +4,6 @@
     align-items: center;
 }
 
-#navbar {
-    font-size: 12px;
-    
-    width: 100vw;
-    max-width: 1200px;
-    padding: 10px 25px;
-    position: fixed;
-
-    z-index: 1;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-#navbar h2 {
-    color: var(--cor-sete);
-}
-
 #banner {
     width: 100%;
     height: 100vh;
@@ -35,37 +16,122 @@
 }
 
 #banner .imagem {
-    width: 100%;
+    max-width: 900px;
+    width: 100vw;
     height: 100vh;
 
-    background-image: url('../../img/banner-image.jpg');
+    background-image: url('../../img/banner.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     filter: brightness(25%);
 }
 
-#banner .titulo-subtitulo {
+#banner .apresentacao {
     z-index: 1;
     position: absolute;
+
+    margin-bottom: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
 }
 
-#banner .titulo-subtitulo h1 {  
+#banner .apresentacao .boas-vindas{
+    margin: 30px 0;
+    padding: 5px;
+
+    border-radius: 5px;
+    background-color: rgba(0,0,0,0.55);
+}
+
+#banner .apresentacao .redes-banner {
+    margin-bottom: 5px;
+}
+
+#banner .apresentacao .redes-banner a {
+    margin: 0 5px;
+}
+
+#banner .apresentacao .nav-banner a {
+    cursor: pointer;
+    text-decoration: none;
+    margin: 5px;
+    padding: 5px;
+
+    background-color: var(--cor-sete);
+
+    border: 1px solid black;
+    color: black;
+    transition: 0.25s ease-in-out;
+}
+
+#banner .apresentacao .nav-banner .btn-portfolio {
+    border-color: var(--cor-sete);
+    background-color: black;
+    color: var(--cor-sete);
+    transition: 0.25s ease-in-out;
+}
+
+#banner .apresentacao .nav-banner a:hover, 
+#banner .apresentacao .nav-banner .btn-portfolio:hover {
+    background-color: var(--cor-um);
+}
+
+#banner .apresentacao h1 {  
     font-size: 25px;
 }
 
-#banner .titulo-subtitulo p,
-#banner .titulo-subtitulo h1 {
+#banner .apresentacao p,
+#banner .apresentacao h1 {
+    font-weight: 700;
     color: var(--cor-sete);
-    text-shadow: 4px 4px 6px black;
+    text-shadow: 4px 4px 4px rgba(0,0,0,0.4);
 }
 
-#banner .titulo-subtitulo p {
+#banner .apresentacao p {
     font-size: 18px;
 }
 
+#banner .apresentacao .redes-banner a .icon{
+    color: white;
+}
+
 @media (min-width: 780px) {
-    #banner .titulo-subtitulo h1 {  
+    #banner .apresentacao h1 {  
         font-size: 39px;
     }
+
+    #banner {
+        align-items: flex-end;
+        text-align: start;
+    }
+
+
+    #banner .apresentacao {
+        margin-left: 50px;
+
+        align-self: flex-start;
+    }
+
+    #banner .imagem {
+        filter: none;
+
+        background-position: top right;
+    }
+
+    #banner .apresentacao .boas-vindas{
+        background-color: rgba(0,0,0,0);
+    }
+
+    #banner .apresentacao p,
+    #banner .apresentacao h1,
+    #banner .apresentacao .redes-banner a .icon {
+        color: black;
+        text-shadow: none;
+
+    }
+
 }

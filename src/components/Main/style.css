@@ -52,6 +52,10 @@
     margin: 20px 0; 
 }
 
+#comQuemAprendi .botoes-nome p {
+    color: var(--cor-um);
+}
+
 #comQuemAprendi .botoes-nome {
     min-width: 190px;
     display: flex;
@@ -83,7 +87,7 @@
 }
 
 #contato span {
-    color: var(--cor-fonte-titulo);
+    color: var(--cor-um);
 }
 
 #contato .row {

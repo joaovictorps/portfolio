@@ -6,11 +6,11 @@
 }
 
 :root {
-    --cor-um: #252422;
+    --cor-um: #ff6700;
     --cor-dois: #1b4332;
     --cor-tres: #40916c;
     --cor-quatro: #52b788;
-    --cor-cinco: #74c69d;
+    --cor-cinco: #d90429;
     --cor-seis: #b7e4c7;
     --cor-sete: #f0efeb;
     --cor-oito: #06d6a0;
@@ -23,5 +23,13 @@ p {
 }
 
 h2 {
-    color: var(--cor-fonte-titulo);
+    color: var(--cor-um);
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
 }
