@@ -15,8 +15,8 @@ export default function Banner() {
                 </div>
 
                 <div className='redes-banner'>
-                    <a href='#' target='_blank' rel='noreferrer'><AiFillLinkedin size={28} className='icon' /></a>
-                    <a href='#' target='_blank' rel='noreferrer'><AiFillGithub size={28} className='icon'/></a>
+                    <a href='https://www.linkedin.com/in/jo%C3%A3o-victor-50a050156/' target='_blank' rel='noreferrer'><AiFillLinkedin size={28} className='icon' /></a>
+                    <a href='https://github.com/joaovictorps' target='_blank' rel='noreferrer'><AiFillGithub size={28} className='icon'/></a>
                 </div>
 
                 <div className='nav-banner'>

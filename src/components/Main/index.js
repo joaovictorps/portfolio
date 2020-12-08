@@ -25,9 +25,7 @@ export default function Main() {
 
     {"id": 2, "nome": "Pedro Naponoceno", "foto": "https://ca.slack-edge.com/T014Z7E1Y3S-U017D4LAPKP-gea0240bbb80-512", "texto":"O Pedro além de ser uma pessoa de ótimo humor, uma pessoa incrível e um dos caras mais motivadores e inteligente que eu já conheci.", "linkedin": "https://www.linkedin.com/in/pedro-naponoceno/"},
 
-    {"id": 3, "nome": "Italo Marca", "foto": "https://avatars3.githubusercontent.com/u/35382873?s=400&v=4", "texto":"Italo foi o meu primeiro professor no desenvolvimento, sempre tentando explicar de um jeito que todos entendam. Se hoje continuo estudando, é por causa dele.", "linkedin": "https://www.linkedin.com/in/italomarca/"},
-
-    {"id": 4, "nome": "Rafael Magalhaes", "foto": "https://ca.slack-edge.com/T014Z7E1Y3S-U014S14U2MP-f3ea6900db14-512", "texto":"Rafael foi o primeiro contato com a escola, uma pessoa muito animadora e de boas ideias. Me ensinou muita coisa sobre empreendedorismo.", "linkedin": "https://www.linkedin.com/in/rafaelmbsouza/"}]
+    {"id": 3, "nome": "Italo Marca", "foto": "https://avatars3.githubusercontent.com/u/35382873?s=400&v=4", "texto":"Italo foi o meu primeiro professor no desenvolvimento, sempre tentando explicar de um jeito que todos entendam. Se hoje continuo estudando, é por causa dele.", "linkedin": "https://www.linkedin.com/in/italomarca/"}]
     
     return (
         <main id='main'>

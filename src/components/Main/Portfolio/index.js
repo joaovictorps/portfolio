@@ -10,6 +10,7 @@ import layoutPizzaria from '../../../img/imagens-portfolio/portfolio-layout-pizz
 import happyWeb from '../../../img/imagens-portfolio/portfolio-happy-web.png';
 import proffy from '../../../img/imagens-portfolio/portfolio-proffy.png';
 import bts from '../../../img/imagens-portfolio/portfolio-bts.png';
+import todo from '../../../img/imagens-portfolio/portfolio-todo.png';
 
 export default function Portfolio({ titulo, texto }) {
     return (
@@ -34,6 +35,9 @@ export default function Portfolio({ titulo, texto }) {
                 <Card imagem={happyWeb} descricao='Projeto desenvolvido na Next Level Week 3.' link='https://github.com/joaovictorps/happy' />
 
                 <Card imagem={bts} descricao='Líder do grupo, responsável pelo back-end, requisições e fiz sistema de autenticação com JWT e MongoDB' link='https://github.com/diegohpedro/Bug-tracking-system' />
+
+                <Card imagem={todo} descricao='Todo list, desenvolvido com apenas HTML, CSS e JS, com temas dark e light.' link='https://joaovictorps.github.io/todo-app/' />
+
 
             </div>
 
