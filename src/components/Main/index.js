@@ -42,7 +42,7 @@ export default function Main() {
 
             <OndeAprendi 
                 titulo='Minha jornada na programação' 
-                texto='Em  Maio de 2020, um amigo me apresentou o desenvolvimento web, logo me identifiquei com a área e comecei meus estudos pelo youtube mesmo. Algumas semanas depois eu comecei a me inscrever em processos seletivos de escolas sobre desenvolvimento web online, consegui passar na Arbyte. Na Arbyte, aprendi muito sobre desenvolvimento web no geral e tive ótimos professores para isso. Junto da Arbyte, tive acesso a plataforma DevMedia, onde pude aprofundar em muitos assuntos, além dos assuntos passados na Arbyte. Nessa plataforma, fiquei algumas vezes entre os que mais ultilizaram a plataforma, ficando em segundo no mês de setembro.'/>
+                texto='Em  Maio de 2020, um amigo me apresentou o desenvolvimento web, logo me identifiquei com a área e comecei meus estudos pelo youtube mesmo. Algumas semanas depois eu comecei a me inscrever em processos seletivos de escolas sobre desenvolvimento web online, consegui passar na Arbyte. Na Arbyte, aprendi muito sobre desenvolvimento web no geral e tive ótimos professores para isso. Junto da Arbyte, tive acesso a plataforma DevMedia, onde pude aprofundar em muitos assuntos, além dos assuntos passados na Arbyte. Nessa plataforma, fiquei algumas vezes entre os que mais utilizaram a plataforma, ficando em segundo no mês de setembro.'/>
 
             <ComQuemAprendi titulo='Com quem aprendi' profs={professores} />
 
