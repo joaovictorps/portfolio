@@ -11,6 +11,7 @@ import happyWeb from '../../../img/imagens-portfolio/portfolio-happy-web.png';
 import proffy from '../../../img/imagens-portfolio/portfolio-proffy.png';
 import bts from '../../../img/imagens-portfolio/portfolio-bts.png';
 import todo from '../../../img/imagens-portfolio/portfolio-todo.png';
+import room from '../../../img/imagens-portfolio/portfolio-room.png';
 
 export default function Portfolio({ titulo, texto }) {
     return (
@@ -37,6 +38,8 @@ export default function Portfolio({ titulo, texto }) {
                 <Card imagem={bts} descricao='Líder do grupo, responsável pelo back-end, requisições e fiz sistema de autenticação com JWT e MongoDB' link='https://github.com/diegohpedro/Bug-tracking-system' />
 
                 <Card imagem={todo} descricao='Todo list, desenvolvido com apenas HTML, CSS e JS, com temas dark e light.' link='https://joaovictorps.github.io/todo-app/' />
+
+                <Card imagem={room} descricao='Room layout, desenvolvido com HTML CSS e JS. FrontEnd Mentor.' link='https://joaovictorps.github.io/room/' />
 
 
             </div>
