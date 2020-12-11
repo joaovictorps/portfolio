@@ -12,6 +12,7 @@ import proffy from '../../../img/imagens-portfolio/portfolio-proffy.png';
 import bts from '../../../img/imagens-portfolio/portfolio-bts.png';
 import todo from '../../../img/imagens-portfolio/portfolio-todo.png';
 import room from '../../../img/imagens-portfolio/portfolio-room.png';
+import ip from '../../../img/imagens-portfolio/portfolio-ip-address-tracker.png';
 
 export default function Portfolio({ titulo, texto }) {
     return (
@@ -41,7 +42,8 @@ export default function Portfolio({ titulo, texto }) {
 
                 <Card imagem={room} descricao='Room layout, desenvolvido com HTML CSS e JS. FrontEnd Mentor.' link='https://joaovictorps.github.io/room/' />
 
-
+                <Card imagem={ip} descricao='Ip address tracker, aplicação web que usa uma api para requisitar informações de domínio.' link='https://joaovictorps.github.io/ip-address-tracker/' />
+                
             </div>
 
             
