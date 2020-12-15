@@ -13,6 +13,7 @@ import bts from '../../../img/imagens-portfolio/portfolio-bts.png';
 import todo from '../../../img/imagens-portfolio/portfolio-todo.png';
 import room from '../../../img/imagens-portfolio/portfolio-room.png';
 import ip from '../../../img/imagens-portfolio/portfolio-ip-address-tracker.png';
+import easybank from '../../../img/imagens-portfolio/portfolio-easybank.png';
 
 export default function Portfolio({ titulo, texto }) {
     return (
@@ -44,6 +45,7 @@ export default function Portfolio({ titulo, texto }) {
 
                 <Card imagem={ip} descricao='Ip address tracker, aplicação web que usa uma api para requisitar informações de domínio.' link='https://joaovictorps.github.io/ip-address-tracker/' />
                 
+                <Card imagem={easybank} descricao='Landing page, Easybank. Desafio da Frontend Mentor.' link='https://joaovictorps.github.io/easybank/' />
             </div>
 
             
