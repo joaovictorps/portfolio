@@ -14,6 +14,7 @@ import todo from '../../../img/imagens-portfolio/portfolio-todo.png';
 import room from '../../../img/imagens-portfolio/portfolio-room.png';
 import ip from '../../../img/imagens-portfolio/portfolio-ip-address-tracker.png';
 import easybank from '../../../img/imagens-portfolio/portfolio-easybank.png';
+import countries from '../../../img/imagens-portfolio/portfolio-countries-api.png';
 
 export default function Portfolio({ titulo, texto }) {
     return (
@@ -46,6 +47,9 @@ export default function Portfolio({ titulo, texto }) {
                 <Card imagem={ip} descricao='Ip address tracker, aplicação web que usa uma api para requisitar informações de domínio.' link='https://joaovictorps.github.io/ip-address-tracker/' />
                 
                 <Card imagem={easybank} descricao='Landing page, Easybank. Desafio da Frontend Mentor.' link='https://joaovictorps.github.io/easybank/' />
+                
+                <Card imagem={countries} descricao='Site que recebe informações de uma api de países, com detalhes de cada um deles e temas light/dark.' link='https://countriesworldapi.herokuapp.com/' />
+            
             </div>
 
             
